@@ -1,0 +1,40 @@
+---
+title: "Amanda Cao"
+author: "Amanda Cao"
+date: "2024-09-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Education
+- Emory University, **2021 - 2025**
+  - BS in QSS Informatics and Biology
+  - GPA: 3.9
+
+- Palos Verdes Peninsula High School, **2017 - 2021**
+  - GPA: 3.98
+  
+## Employment
+- AGC Partners, **June 2024 - July 2024**
+  - Technology Investment Banking Summer Analyst
+  - Wrote a 40+ page report on restaurant technology, focusing on catering event software solutions; conducted market sizing,identified demand drivers and challenges, and mapped the competitive landscape to uncover growth opportunities
+
+- Bravaldo Capital Advisors, **June 2023 - July 2023**
+  - Constructed CIM with the junior team on selling an Atlanta-based firm in the security industry, conducted extensive industry research on the industry landscape, and analyzed recent trends and major players to identify potential growth trajectories
+  - Advised a construction company on its sell-side transaction, organized financials and constructed a three-statement model
+  
+```{r}
+options(repos = c(CRAN = "https://cran.rstudio.com/"))
+install.packages("renv", type = "binary")
+renv::init()
+renv::snapshot()
+```
+
+
+```{r}
+usethis::use_git()
+```
+
