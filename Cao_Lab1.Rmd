@@ -38,3 +38,10 @@ renv::snapshot()
 usethis::use_git()
 ```
 
+
+```{r}
+gitcreds::gitcreds_set()
+usethis::git_remotes()
+usethis::use_github()
+```
+
